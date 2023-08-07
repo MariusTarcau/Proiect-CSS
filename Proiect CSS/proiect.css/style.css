@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --roz: #d43e56;
+    --verde: #45f639fe;
+    --galben: #d4f34d;
+    --black: #000;
+    --orange : #ffa600ef;
+    
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex: 1;
+    position:sticky;
+    background-color:var(--orange) ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    
+}
+
+.navigatie li{
+    display: inline;
+    margin-right:20px;
+    flex: 1;
+    flex-wrap: nowrap;
+    
+}
+
+.navigatie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+.logo{
+    color: var(--blue);
+    display: flex;
+    flex: 1;
+    margin-left: 20px;
+}
+
+.searchbar{
+    display: flex;
+    flex: 1;
+    
+    
+}
+
+.search{
+    font-size: larger;
+}
+
+.options{
+    display: flex;
+    flex: 1;
+    
+}
+
+.titlu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+}
+
+.art-1{
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.click{
+    background-color: var(--roz);
+    color:var(--white) ;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 30px;
+    border-radius:15px;
+    border: 2px solid var(--black);
+}
+
+.art-2{
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.click2{
+    background-color: var(--verde);
+    color:var(--white) ;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 30px;
+    border-radius: 15px;
+    border: 2px solid var(--black);
+
+}
+
+.click:hover{
+    cursor: pointer;
+    background-color:var(--orange) ;
+    transition: 0.3s;
+}
+
+.click2:hover{
+    cursor: pointer;
+    background-color: var(--galben);
+    transition: 0.3s;
+}
+
+.footer{
+    height: 150px;
+    display: flex;
+    text-decoration: underline;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color:var(--galben) ;
+}
+
+.footer-text:hover{
+    cursor: pointer;
+}
